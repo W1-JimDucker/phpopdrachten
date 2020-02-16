@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
 }
 header{
     display: block;
@@ -12,7 +11,12 @@ header{
 }
 
 aside{
-    width: 40%;
+    width: 30%;
+    float: left;
     height: 100%;
     background-color: #f5f5dc;
+}
+
+main{
+    float: left;
 }

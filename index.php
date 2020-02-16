@@ -73,4 +73,7 @@
             </li>
         </ul>
     </aside>
+    <h2 id="uitwerkingen">
+        Uitwerkingen
+    </h2>
 </body>
