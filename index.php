@@ -6,13 +6,15 @@
  * File: index.php
  */
 ?>
+<html>
 <head>
     <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
-    </header>
+    <?php
+        include("includes/header.php");
+    ?>
+    <div id="wrapper">
     <aside>
         <h2>Menu</h2>
         <ul>
@@ -73,7 +75,14 @@
             </li>
         </ul>
     </aside>
-    <h2 id="uitwerkingen">
-        Uitwerkingen
-    </h2>
+    <main>
+         <h2 id="uitwerkingen">
+            Uitwerkingen
+         </h2>
+    </main>
+    </div>
+    <?php
+    include("includes/footer.php");
+    ?>
 </body>
+</html>
